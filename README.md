@@ -10,6 +10,9 @@ The goal is to demonstrate advanced API automation design and implementation ski
 ---
 
 ##  Tech Stack
+
+For this project use Java and cucumber beacuse specfloe is no longer avilable after dece,ber 31st 2024
+
 | Component | Description |
 |------------|-------------|
 | **Language** | Java 11+ |
