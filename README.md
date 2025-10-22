@@ -1,17 +1,18 @@
-# entain-assignment
+#  Entain Assignment
 
-#  Entain  API Automation Framework
+## Entain API Automation Framework
 
-##  Overview
-This project automates testing of the **Swagger Petstore API** `/pet` endpoints, designed as part of the **Principle SDET / SDET III Pre-Interview Task**.
+### Project Overview
+This project automates testing of the **Swagger Petstore API**  endpoints, designed as part of the **Principal SDET / SDET III Pre-Interview Task**.
 
 The goal is to demonstrate advanced API automation design and implementation skills — with emphasis on **reusability**, **maintainability**, **data-driven validation**, and **clean environment handling**.
 
 ---
 
-##  Tech Stack
+## Tech Stack Used forProject
 
-For this project use Java and cucumber beacuse specfloe is no longer avilable after dece,ber 31st 2024
+This project is built using **Java** and **Cucumber**, as **SpecFlow** is no longer supported after December 31st, 2024.  
+It is designed to handle **flaky tests** and support **parallel execution** efficiently.
 
 | Component | Description |
 |------------|-------------|
@@ -27,9 +28,9 @@ For this project use Java and cucumber beacuse specfloe is no longer avilable af
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
-
+```bash
 EntainAssignment/
 ├── pom.xml                          # Maven project definition
 ├── README.md                        # Project documentation
@@ -82,28 +83,34 @@ EntainAssignment/
 │           └── schemas/              # JSON Schemas for validation
 │               ├── findByStatus-schema.json
 │               └── pet-schema.json
- 
-
 ```
 
+---
 
-## How to Run the Tests
+##  How to Run the Tests
 
 ###  Prerequisites
 - Java **11** or higher  
 - Maven **3.8+**
 
+---
 
 ###  Setup
-1. Clone the repository:
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/<your-username>/EntainAssignment.git
-2. Run the Command iin Terminal
+   ```
+
+2. **Run tests using TestNG**
    ```bash
    mvn clean test "-DsuiteXmlFile=testng.xml"
-3. for Retry Flaky tests
-   ``` bash
+   ```
+
+3. **Retry flaky tests**
+   ```bash
    mvn "-Dsurefire.suiteXmlFiles=testng.xml" "-Dretry.maxAttempts=2" clean test
+   ```
 
-
+---
 
