@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Entain Assignment" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="org.entain.tests.retry.RetryTransformer"/>
+    </listeners>
+    <test name="Cucumber Scenarios">
+        <classes>
+            <class name="org.entain.tests.runners.TestNGCucumberRunnerTest"/>
+        </classes>
+    </test>
+</suite>
