@@ -5,7 +5,7 @@
 ### Project Overview
 This project automates testing of the **Swagger Petstore API**  endpoints, designed as part of the **Principal SDET / SDET III Pre-Interview Task**.
 
-The goal is to demonstrate advanced API automation design and implementation skills — with emphasis on **reusability**, **maintainability**, **data-driven validation**, and **clean environment handling**.
+The goal is to demonstrate advanced API automation design and implementation skills  with emphasis on **reusability**, **maintainability**, **data-driven validation**, and **clean environment handling**.
 
 ---
 
@@ -99,7 +99,7 @@ EntainAssignment/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/EntainAssignment.git
+   git clone https://github.com/chamathf/entain-assignment.git
    ```
 
 2. **Run tests using TestNG**
