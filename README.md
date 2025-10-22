@@ -28,7 +28,7 @@ It is designed to handle **flaky tests** and support **parallel execution** effi
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 EntainAssignment/
@@ -114,3 +114,9 @@ EntainAssignment/
 
 ---
 
+##  CI/CD — GitHub Actions
+
+![CI](https://github.com/chamathf/entain-assignment/actions/workflows/ci.yml/badge.svg)
+
+This project runs tests automatically with **GitHub Actions** on every push and pull request to `master`.  
+The workflow builds the Maven project, runs the **TestNG + Cucumber** suite, and uploads the reports as artifacts.
